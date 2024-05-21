@@ -1,5 +1,6 @@
 app:
-  image: node:4
+  # image: node:4
+  build: ./app
   volumes:
    - ./app:/app
   links:

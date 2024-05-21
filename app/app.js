@@ -3,6 +3,7 @@ var app = express();
 
 var neo4j = require('node-neo4j');
 var db = new neo4j('http://neo4j:test@neo4j:7474');
+// var db = new neo4j('http://neo4j:test@localhost:17474');
 
 app.use('/', express.static(__dirname + '/view'));
 
